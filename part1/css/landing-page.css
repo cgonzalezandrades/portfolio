@@ -33,10 +33,20 @@ h6 {
 .intro-header {
     padding-top: 10px;
     /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 40px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/office.png) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-headerport {
+    padding-top: 10px;
+    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/formal.jpg) no-repeat center center;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -47,11 +57,23 @@ br{
 
 .intro-message {
     position: relative;
-    padding-top: 50%;
-    padding-bottom: 0%;
+    padding-top: 25%;
+    padding-bottom: 2%;
+}
+
+.intro-message-porto {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 2%;
 }
 
 .intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-message-porto > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 5em;
@@ -115,11 +137,31 @@ br{
     border-top: 3px solid #e7e7e7;
 }
 
+.about{
+    padding: 100px 50px 50px 50px;
+    
+}
+
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+}
+.banner-contact {
+    padding: 16% 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner-contact h2{
+font-size: 5em;
+}
+
+#contact{
+    padding: 100px 0;
+    background-color: #f8f8f8;
 }
 
 .banner h2 {
