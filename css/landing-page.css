@@ -29,6 +29,9 @@ h6 {
     font-size: 18px;
     font-weight: 400;
 }
+#intro{
+  margin-top: 0;
+}
 
 .intro-header {
     padding-top: 10px;
