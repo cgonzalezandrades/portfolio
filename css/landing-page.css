@@ -50,9 +50,9 @@ h6 {
     background-size: cover;
 }
 
-br{
+br {
     font-weight: 20px;
-    
+
 }
 
 .intro-message {
@@ -89,21 +89,25 @@ br{
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
     .intro-message {
         padding-bottom: 15%;
     }
+
     .intro-message > h1 {
         font-size: 3em;
     }
+
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
+
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+
     .intro-divider {
         width: 100%;
     }
@@ -137,17 +141,21 @@ br{
     border-top: 3px solid #e7e7e7;
 }
 
-.about{
+.about {
     padding: 100px 50px 50px 50px;
-    
+
 }
 
 .banner {
-    padding: 100px 0;
+/*    padding: 100px 0;*/
     color: #f8f8f8;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+    padding-top: 50px;
+  padding-bottom: 80px;
+  
 }
+
 .banner-contact {
     padding: 16% 0;
     color: #f8f8f8;
@@ -155,11 +163,11 @@ br{
     background-size: cover;
 }
 
-.banner-contact h2{
-font-size: 5em;
+.banner-contact h2 {
+    font-size: 5em;
 }
 
-#contact{
+#contact {
     padding: 100px 0;
     background-color: #f8f8f8;
 }
@@ -179,32 +187,36 @@ font-size: 5em;
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
+@media (max-width: 1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
         font-size: 3em;
     }
+
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
+
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
 }
 
 footer {
-    padding: 50px 0;
+/*    padding: 50px 0;*/
     background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 p.copyright {
